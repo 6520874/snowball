@@ -36,10 +36,19 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\game.cs" />
-     <Compile Include="Assets\Snow.cs" />
-     <Compile Include="Assets\ball.cs" />
      <Compile Include="Assets\Scenes\Test.cs" />
+     <Compile Include="Assets\game.cs" />
+     <Compile Include="Assets\ball.cs" />
+     <Compile Include="Assets\Snow.cs" />
+     <Compile Include="Assets\NewPushBox\Scripts\BoxScript.cs" />
+     <Compile Include="Assets\NewPushBox\Scripts\PlayerMove.cs" />
+     <Compile Include="Assets\NewPushBox\Scripts\CamearFollow.cs" />
+     <Compile Include="Assets\PlayerBase.cs" />
+     <Compile Include="Assets\BoxTestScript.cs" />
+     <Compile Include="Assets\Control.cs" />
+     <Compile Include="Assets\Player.cs" />
+     <Compile Include="Assets\GroundCheck.cs" />
+     <None Include="Assets\Shader\NewUnlitShader.shader" />
     <Reference Include="UnityEngine">
         <HintPath>D:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
@@ -613,6 +622,9 @@
     <Reference Include="System.Xml.Serialization">
         <HintPath>D:/Program Files/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.ShaderGraph.Editor">
+        <HintPath>D:/study/testsnowball/Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VSCode.Editor">
         <HintPath>D:/study/testsnowball/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
@@ -621,6 +633,9 @@
     </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
         <HintPath>D:/study/testsnowball/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
+        <HintPath>D:/study/testsnowball/Library/ScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
         <HintPath>D:/study/testsnowball/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
@@ -631,14 +646,26 @@
     <Reference Include="Unity.TextMeshPro">
         <HintPath>D:/study/testsnowball/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Searcher.Editor">
+        <HintPath>D:/study/testsnowball/Library/ScriptAssemblies/Unity.Searcher.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.Runtime">
+        <HintPath>D:/study/testsnowball/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor.UI">
         <HintPath>D:/study/testsnowball/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
         <HintPath>D:/study/testsnowball/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
+        <HintPath>D:/study/testsnowball/Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEngine.UI">
         <HintPath>D:/study/testsnowball/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.Editor">
+        <HintPath>D:/study/testsnowball/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
