@@ -1,3 +1,4 @@
+using System.Globalization;
 using System.Runtime.CompilerServices;
 using System.Collections;
 using System.Collections.Generic;
@@ -24,6 +25,8 @@ public class Snow : MonoBehaviour
         mainCam = Camera.main.GetComponent<Camera>();
         rb = GetComponent<Rigidbody>();
         GetComponent<Renderer>().material.mainTexture = rt;
+
+    
     }
     
     
@@ -37,6 +40,9 @@ public class Snow : MonoBehaviour
         Graphics.DrawTexture(rect,drawImg);
         GL.PopMatrix();
         RenderTexture.active = null;
+    
+         
+
     }
  
 
