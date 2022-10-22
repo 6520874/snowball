@@ -1,6 +1,7 @@
 using System.Runtime.CompilerServices;
 using System.Collections;
 using System.Collections.Generic;
+using System.ComponentModel.Design.Serialization;
 using UnityEditor;
 using UnityEngine;
 using VSCodeEditor;
@@ -13,13 +14,18 @@ public class Snow : MonoBehaviour
     public Texture drawImg;
 
     public Camera mainCam;
-    
 
+    public Rigidbody rb;  //圆球
+
+    public float speed = 0.4f;
+    
     void Start()
     {
         mainCam = Camera.main.GetComponent<Camera>();
+        rb = GetComponent<Rigidbody>();
         GetComponent<Renderer>().material.mainTexture = rt;
     }
+    
     
     public void Draw(int x,int y){
         
@@ -50,6 +56,12 @@ public class Snow : MonoBehaviour
             }
 
         }
+
+
+       
+
+        //var transformPosition = rb.transform.position;
+        // transformPosition.x = Input.GetAxis("Horizontal");
 
     }
 }

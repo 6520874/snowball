@@ -328,6 +328,8 @@ MonoBehaviour:
   rt: {fileID: 8400000, guid: 945047c354369db408cd156bef8018d4, type: 2}
   drawImg: {fileID: 2800000, guid: 3d6d586b0a2130e4986a8d35b125c670, type: 3}
   mainCam: {fileID: 963194227}
+  rb: {fileID: 2012199177}
+  speed: 0.4
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -424,6 +426,7 @@ GameObject:
   - component: {fileID: 2012199179}
   - component: {fileID: 2012199178}
   - component: {fileID: 2012199177}
+  - component: {fileID: 2012199182}
   m_Layer: 0
   m_Name: Sphere
   m_TagString: Untagged
@@ -523,3 +526,15 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: -26.36, y: -101.554, z: -109.483}
+--- !u!114 &2012199182
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2012199176}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68ee8b1b877b1ee49aa0a859d148b908, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

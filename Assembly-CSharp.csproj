@@ -38,6 +38,7 @@
   <ItemGroup>
      <Compile Include="Assets\game.cs" />
      <Compile Include="Assets\Snow.cs" />
+     <Compile Include="Assets\ball.cs" />
     <Reference Include="UnityEngine">
         <HintPath>D:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
